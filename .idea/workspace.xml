@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc2ab437-f28e-46d0-ad6b-aa18c0c26d60" name="Changes" comment="1st and 2nd ex">
+    <list default="true" id="cc2ab437-f28e-46d0-ad6b-aa18c0c26d60" name="Changes" comment="full without 3rd metod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegExTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegExTest.java" afterDir="false" />
@@ -44,13 +44,12 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegExTest.correctPassword">
-    <configuration name="RegExTest.correctGUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegExTest">
+    <configuration name="RegExTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegExTest" />
-      <option name="METHOD_NAME" value="correctGUID" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegExTest.correctPassword" />
+        <item itemvalue="JUnit.RegExTest" />
         <item itemvalue="JUnit.RegExTest.incorrectPassword" />
-        <item itemvalue="JUnit.RegExTest.correctURL" />
-        <item itemvalue="JUnit.RegExTest.correctGUID" />
+        <item itemvalue="JUnit.RegExTest.correctPassword" />
         <item itemvalue="JUnit.RegExTest.incorrectURL" />
+        <item itemvalue="JUnit.RegExTest.correctURL" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665165454942</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="full without 3rd metod">
+      <created>1665167410325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665167410325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first view on Hub" />
     <MESSAGE value="1st and 2nd ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st and 2nd ex" />
+    <MESSAGE value="full without 3rd metod" />
+    <option name="LAST_COMMIT_MESSAGE" value="full without 3rd metod" />
   </component>
 </project>

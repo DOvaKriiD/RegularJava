@@ -71,12 +71,12 @@ public class RegExTest {
     @Test
     public void correctPassword()
     {
-        Assert.assertTrue(RegEx.isCorrectURL("C00l_Pass"));
-        Assert.assertTrue(RegEx.isCorrectURL("SupperPas1"));
-        Assert.assertTrue(RegEx.isCorrectURL("fiNaly_g00d"));
-        Assert.assertTrue(RegEx.isCorrectURL("fi142135135asfvcsD"));
-        Assert.assertTrue(RegEx.isCorrectURL("qwertyQ1"));
-        Assert.assertTrue(RegEx.isCorrectURL("C00l_Pass_SupperPas1_sagvda"));
+        Assert.assertTrue(RegEx.isCorrectPassword("C00l_Pass"));
+        Assert.assertTrue(RegEx.isCorrectPassword("SupperPas1"));
+        Assert.assertTrue(RegEx.isCorrectPassword("fiNaly_g00d"));
+        Assert.assertTrue(RegEx.isCorrectPassword("fi142135135asfvcsD"));
+        Assert.assertTrue(RegEx.isCorrectPassword("qwertyQ1"));
+        Assert.assertTrue(RegEx.isCorrectPassword("C00l_Pass_SupperPas1_sagvda"));
     }
 
     @Test

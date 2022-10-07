@@ -16,17 +16,17 @@ public class RegEx {
     }
 
     public static boolean isCorrectURL(String checkingString) {
-       /* Pattern pattern = Pattern.compile("((https|http)\\:\\/\\/)?([a-zA-Z0-9]{2,}\\\\.)+[a-zA-Z0-9]{2,}" +
-                "(:\\\\d+)?(\\/[a-z\\\\\\-\\.A-Z_0-9]+)*(\\\\?([a-zA-Z\\\\-_0-9]+=[a-zA-Z0-9]+&)" +
-                "*[a-zA-Z\\\\-_0-9]+=[a-zA-Z0-9]+)?(#[a-zA-Z0-9]{2,})?");
-        return pattern.matcher(checkingString).matches();*/
-        return true;
+        Pattern pattern = Pattern.compile(
+                "(http(s)?://)?" +
+                "([a-zA-Z0-9]{2,}\\.)+[a-zA-Z0-9]{2,}(:\\d+)?(/[a-z\\-.A-Z_0-9]+)*" +
+                "(\\?([a-zA-Z\\-_0-9]+=[a-zA-Z0-9]+&)*[a-zA-Z\\-_0-9]+=[a-zA-Z0-9]+)?" +
+                "(#[a-zA-Z0-9]{2,})?");
+        return pattern.matcher(checkingString).matches();
     }
 
     public static boolean isCorrectPassword(String checkingString) {
         Pattern pattern = Pattern.compile(
-                "\"^(?=.*\\\\d)(?=.*[a-z])(?=.*[A-Z])" +
-                            "a-zA-Z0-9_]{8,}$\"");
+                "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z_\\d]{8,}$");
         return pattern.matcher(checkingString).matches();
     }
 
