@@ -44,16 +44,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegExTest.incorrectGUID">
-    <configuration name="RegExTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RegularJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegExTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegExTest.correctPassword">
     <configuration name="RegExTest.correctGUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,31 +55,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegExTest.correctIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegExTest.correctPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegExTest" />
-      <option name="METHOD_NAME" value="correctIP" />
+      <option name="METHOD_NAME" value="correctPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegExTest.incorrectGUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegExTest.correctURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegExTest" />
-      <option name="METHOD_NAME" value="incorrectGUID" />
+      <option name="METHOD_NAME" value="correctURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegExTest.incorrectIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegExTest.incorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegExTest" />
-      <option name="METHOD_NAME" value="incorrectIP" />
+      <option name="METHOD_NAME" value="incorrectPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegExTest.incorrectURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegExTest" />
+      <option name="METHOD_NAME" value="incorrectURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegExTest.incorrectGUID" />
+        <item itemvalue="JUnit.RegExTest.correctPassword" />
+        <item itemvalue="JUnit.RegExTest.incorrectPassword" />
+        <item itemvalue="JUnit.RegExTest.correctURL" />
         <item itemvalue="JUnit.RegExTest.correctGUID" />
-        <item itemvalue="JUnit.RegExTest" />
-        <item itemvalue="JUnit.RegExTest.incorrectIP" />
-        <item itemvalue="JUnit.RegExTest.correctIP" />
+        <item itemvalue="JUnit.RegExTest.incorrectURL" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665164333190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1st and 2nd ex">
+      <created>1665165454942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665165454942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

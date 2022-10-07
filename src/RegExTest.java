@@ -45,4 +45,50 @@ public class RegExTest {
         Assert.assertFalse(RegEx.isCorrectGUID("e02-fd0e400fd-090A-ca30-0d0a0038ba0"));
         Assert.assertFalse(RegEx.isCorrectGUID("e02fd0e4-00fd-090A-ca30-0d00a0038b"));
     }
+
+    @Test
+    public void correctURL()
+    {
+        Assert.assertTrue(RegEx.isCorrectURL("http://www.example.com"));
+        Assert.assertTrue(RegEx.isCorrectURL("https://www.example.com"));
+        Assert.assertTrue(RegEx.isCorrectURL("www.example.com"));
+        Assert.assertTrue(RegEx.isCorrectURL("example.com:8888"));
+        Assert.assertTrue(RegEx.isCorrectURL("my.com/text/text.txt"));
+        Assert.assertTrue(RegEx.isCorrectURL("var.var.var.var.var.var.var:8888"));
+    }
+
+    @Test
+    public void incorrectURL()
+    {
+       Assert.assertFalse(RegEx.isCorrectURL("Just text"));
+       Assert.assertFalse(RegEx.isCorrectURL("R://win.ru"));
+       Assert.assertFalse(RegEx.isCorrectURL("n.ru"));
+       Assert.assertFalse(RegEx.isCorrectURL("win.ru//ans.txt"));
+       Assert.assertFalse(RegEx.isCorrectURL("win.ru//ans.txt"));
+       Assert.assertFalse(RegEx.isCorrectURL("-win.ru"));
+    }
+
+    @Test
+    public void correctPassword()
+    {
+        Assert.assertTrue(RegEx.isCorrectURL("C00l_Pass"));
+        Assert.assertTrue(RegEx.isCorrectURL("SupperPas1"));
+        Assert.assertTrue(RegEx.isCorrectURL("fiNaly_g00d"));
+        Assert.assertTrue(RegEx.isCorrectURL("fi142135135asfvcsD"));
+        Assert.assertTrue(RegEx.isCorrectURL("qwertyQ1"));
+        Assert.assertTrue(RegEx.isCorrectURL("C00l_Pass_SupperPas1_sagvda"));
+    }
+
+    @Test
+    public void incorrectPassword()
+    {
+        Assert.assertFalse(RegEx.isCorrectPassword("C"));
+        Assert.assertFalse(RegEx.isCorrectPassword("SuPs1"));
+        Assert.assertFalse(RegEx.isCorrectPassword("1111111111112313123123"));
+        Assert.assertFalse(RegEx.isCorrectPassword("ASDdgDGsgSDGsdgashafjhnsfgmdx"));
+        Assert.assertFalse(RegEx.isCorrectPassword("aaaaaaaaaaaavb"));
+        Assert.assertFalse(RegEx.isCorrectPassword("OFGFGFGFGFGFGFGFGFGFG"));
+    }
+
+
 }
