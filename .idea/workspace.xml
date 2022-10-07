@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc2ab437-f28e-46d0-ad6b-aa18c0c26d60" name="Changes" comment="first view on Hub">
+    <list default="true" id="cc2ab437-f28e-46d0-ad6b-aa18c0c26d60" name="Changes" comment="1st and 2nd ex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegExTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegExTest.java" afterDir="false" />
@@ -44,7 +44,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegExTest">
+  <component name="RunManager" selected="JUnit.RegExTest.incorrectGUID">
     <configuration name="RegExTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,11 +54,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegExTest.correctGUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegExTest" />
+      <option name="METHOD_NAME" value="correctGUID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegExTest.correctIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegExTest" />
       <option name="METHOD_NAME" value="correctIP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegExTest.incorrectGUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegExTest" />
+      <option name="METHOD_NAME" value="incorrectGUID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegExTest.incorrectGUID" />
+        <item itemvalue="JUnit.RegExTest.correctGUID" />
         <item itemvalue="JUnit.RegExTest" />
         <item itemvalue="JUnit.RegExTest.incorrectIP" />
         <item itemvalue="JUnit.RegExTest.correctIP" />
@@ -105,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665163869500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first view on Hub">
+      <created>1665164333190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665164333190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first view on Hub" />
-    <option name="LAST_COMMIT_MESSAGE" value="first view on Hub" />
+    <MESSAGE value="1st and 2nd ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st and 2nd ex" />
   </component>
 </project>

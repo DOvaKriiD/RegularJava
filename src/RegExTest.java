@@ -23,4 +23,26 @@ public class RegExTest {
         Assert.assertEquals(false, RegEx.isCorrectIP("34.z.25.123"));
         Assert.assertEquals(false, RegEx.isCorrectIP("1.1.1.."));
     }
+
+    @Test
+    public void correctGUID()
+    {
+        Assert.assertTrue(RegEx.isCorrectGUID("e02fd0e4-00fd-090a-ca30-0d00a0038ba0"));
+        Assert.assertTrue(RegEx.isCorrectGUID("{e02fd0e4-00fd-090A-ca30-0d00a0038ba0}"));
+        Assert.assertTrue(RegEx.isCorrectGUID("{6F9619FF-8B86-D011-B42D-00CF4FC964FF}"));
+        Assert.assertTrue(RegEx.isCorrectGUID("{00000000-8B86-D011-aaaa-000000000000}"));
+        Assert.assertTrue(RegEx.isCorrectGUID("11111111-1111-1111-1111-111111111111"));
+        Assert.assertTrue(RegEx.isCorrectGUID("fEE18888-5088-600D-1234-abcdDCBAefef"));
+    }
+
+    @Test
+    public void incorrectGUID()
+    {
+        Assert.assertFalse(RegEx.isCorrectGUID("{e02fd0e4-00fd-090A-ca30-0d00a0038ba0"));
+        Assert.assertFalse(RegEx.isCorrectGUID("e02fd0e4-00fd-090A-ca30-0d00a0038ba0}"));
+        Assert.assertFalse(RegEx.isCorrectGUID("e02fd0eG-00fd-090A-ca30-0d00a0038ba0"));
+        Assert.assertFalse(RegEx.isCorrectGUID("e02fd0e400fd090Aca300d00a0038ba0"));
+        Assert.assertFalse(RegEx.isCorrectGUID("e02-fd0e400fd-090A-ca30-0d0a0038ba0"));
+        Assert.assertFalse(RegEx.isCorrectGUID("e02fd0e4-00fd-090A-ca30-0d00a0038b"));
+    }
 }
