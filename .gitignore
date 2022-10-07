@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/lib/junit-4.13.jar
+.gitignore
+/lib/hamcrest-core-1.3.jar
